@@ -14,6 +14,16 @@ app.listen(PORT,()=>{
     console.log(`App is listening on ${PORT}`)
 })
 
+app.get('/books',async(req,res)=>{
+    try{
+        const books= await Book.find({});
+        return res.status(200).json(books)
+    }
+    catch{
+
+    }
+})
+
 //route to save a new book
 app.post('/books',async(req,res)=>{
     try{
