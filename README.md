@@ -1,9 +1,3 @@
-# Book-Store-MERN
+This Book Store project, constructed with the MERN stack, serves as a practical learning experience for me. It allows users to perform Create, Read, Update, and Delete (CRUD) operations on books. Its primary aim is to grasp the fundamental concepts.
 
-Learn the MERN stack (MongoDB, Express, React, Node.js) in this crash course for beginners. Here are some of the topics you will learn about:
-- Backend CRUD
-- Backend Router
-- CORS Policy
-- MongoDB operations
-- Frontend CRUD 
-- Frontend Router
+You can contribute by adding a book you've recently read or engaging in various CRUD functionalities. The project emphasizes simplicity to aid in understanding the core principles of web development using the MERN stack
